@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #navbar a {
+            text-decoration: indianred;
+            font-size: 30px;
+            display: block;
+            color: white;
+            padding: 5px 6px 6px 11px;
+        }
+        
+        #navbar {
+            height: 100%;
+            width: 16%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color:antiquewhite ;
+            overflow-x: hidden;
+        }
+        
+        #navbar a:hover {
+            color: #818181;
+        }
+        
+        #main-doc {
+            margin-left: 16%;
+            margin-top: -33px;
+        }
+        
+        header {
+            background-color: yellow  ;
+            text-align: center;
+            font-size: 200%;
+            color: white;
+            margin-left: -5px;
+        }
+        
+        @media (min-width: 768px) and (max-width: 1024px) {
+            #navbar a {
+                font-size: 23px;
+            }
+        }
+        
+        #home_section,
+        #about_us {
+            font-family: Verdana, Geneva, sans-serif;
+            padding: 0px 15px;
+        }
+        
+        @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+            #navbar a {
+                font-size: 17px;
+            }
+        }
+        
+        @media (min-width: 481px) and (max-width: 767px) {
+            #navbar a {
+                font-size: 10px;
+            }
+        }
+        
+        @media (min-width: 320px) and (max-width: 480px) {
+            #navbar a {
+                font-size: 7px;
+            }
+        }
+        
+        .div_boarder {
+            padding: 1%;
+            background-color: #dccdea;
+        }
+        
+        ul {
+            list-style: circle;
+        }
+        
+        .products_img {
+            width: 33%;
+            height: 32%;
+        }
+        
+        .gallery_img {
+            width: 33%;
+            height: 41%;
+        }
+        
+        input[type=text],
+        textarea {
+            padding: 1%;
+            border: 2px solid #cab4ca;
+            width: 40%;
+        }
+        
+        label {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <h1 style="color: whitesmoke; margin-left: 15px; font-weight: bolder; position: fixed; z-index: 1;">GRACE FARM</h1><br><br><br>
+        <hr>
+        <ul>
+            <a class="nav-link" href="#about us">About Us</a>
+            <a class="nav-link" href="#Women's clothings">Women's Clothings</a>
+            <a class="nav-link" href="#Men's Clothings">Men's Clothings</a>
+            <a class="nav-link" href="#kids clothings">Kid's Clothing's</a>
+            <a class="nav-link" href="#contact_us">Contact Us</a>
+        </ul>
+    </nav>
+
+    <div id="main-doc">
+        <section class="main-section" id="about us">
+
+            <header>
+                <h2>ESTHER'S ONLINE STORE</h2>
+            </header>
+            <i><span style="margin-left: 2%; color: black; font-size: 27px">An inside look into our Store!</span> </i>
+            <div style="background-color: #fdf5fd;">
+                <p><span style="font-weight: bold">Esther's Online store</span> is an online store that offfers shopping services and delivers right to your door step. </p>
+                <p>We have a range of clothings from women clothings to men and kids wear.</p>
+            </div><br>
+            <p>We do world wide shipping and the goods arrive in 5 working days.</p>
+        </section>
+
+        <section class="main-section" id="women's clothings">
+            <header>
+                <h2>Women's clothings</h2>
+            </header>
+            <p>We have <ol>
+                <li>Shirts.</li> 
+                <li>Dresses.</li>
+                <li>Tops.</li>
+                <li>Trousers.</li> 
+                <li>Lingerie</li> all at affordable ranges.</p>
+        </section>
+
+        <section class="main-section" id="Men's Clothing">
+            <header>
+                <h2>Men's Clothing</h2>
+            </header>
+            <div style="font-family: Verdana, Geneva, sans-serif;">
+                <p>We have a wide range of men's wear at affordable prices which include:
+                    <ol>
+                        <li>Suits.</li>
+                        <li>Polo shirts.</li>
+                        <li>Jean Trousers.</li>
+                        <li>Jackets.</li>
+                    </ol>
+                </p>
+            </div>
+            <div>
+                <span><img class="products_img" src="img/cows.jpg"></span>
+                <span><img class="products_img" src="img/goats.jpg"></span>
+                <span><img class="products_img" src="img/hens.jpg"></span>
+                <i>We sell cows, chicken, and Goats.</i>
+            </div><br>
+            <div>
+                <span><img class="products_img" src="img/eggs.jpg"></span>
+                <span><img class="products_img" src="img/skin.jpg"></span>
+                <span><img class="products_img" src="img/manure.jpg"></span>
+                <i>We also sell eggs, manure and animmal skin.</i>
+            </div>
+        </section>
+
+        <section class="main-section" id="gallery">
+            <header>
+                <h2>Gallery</h2>
+            </header>
+            <div>
+                <span><img class="gallery_img" src="img/milking.jpg"></span>
+                <span><img class="gallery_img" src="img/insermination.jpg"></span>
+                <span><img class="gallery_img" src="img/milk.jpg"></span>
+            </div>
+            <div>
+                <span><img class="gallery_img" src="img/vaccinate.jpg"></span>
+                <span><img class="gallery_img" src="img/vaccinate2.jpg"></span>
+                <span><img class="gallery_img" src="img/pickeggs.jpg"></span>
+            </div>
+        </section>
+
+        <section class="main-section" id="contact_us">
+            <header>
+                <h2>Contact Us</h2>
+            </header>
+            <div class="div_boarder">
+                <h2 style="text-align: center">Grace Farm</h2>
+                <div><label>Email: </label><b><font color="blue">gracefarm@yahoo.com</font></b></div>
+                <div><label>Tel: </label><b><font color="blue">+999 999 999</font></b></div>
+                <b><i><font color="blue">gracefarm@facebook.com</font></i></b>
+
+                <form>
+                    <br>
+                    <div>
+                        <label>First Name</label><br>
+                        <input type="text" value="" placeholder="Name" />
+                    </div><br>
+
+                    <div>
+                        <label>Last Name</label><br>
+                        <input type="text" value="" placeholder="Name" />
+                    </div><br>
+
+                    <div>
+                        <label>Email Address</label><br>
+                        <input type="text" value="" placeholder="Email" />
+                    </div><br>
+
+                    <div>
+                        <label>Comment</label><br>
+                        <textarea placeholder="Write your Request" rows="4"></textarea>
+                    </div><br>
+
+                    <input style="padding: 1%; background-color: purple; border: none; color: white; font-weight: bolder; cursor: pointer; margin-left: 34%" type="submit" value="Submit" />
+                </form>
+            </div><br><br><br>
+        </section>
+    </div>
+</body>
+
+</html>
